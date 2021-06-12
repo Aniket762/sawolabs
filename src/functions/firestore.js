@@ -3,9 +3,14 @@ import firebase from "../firebase";
 import "firebase/firestore";
 import { UserInput } from "../pages/Dashboard/UserInput";
 
-function Firestore() {
+function Firestore()
+{
+  // get current user
   const [users,setUsers] = useState([]);
-  useEffect(() => {
+  
+  // set value when page refreshes 
+  useEffect(() =>
+  {
     const fetchData = async () => {
       const db = firebase.firestore();
       const data = await db.collection("users").get();
@@ -14,6 +19,7 @@ function Firestore() {
     fetchData();
   }, []);
 
+  // passing the data to user input
   return (
     <div>
       <ul>

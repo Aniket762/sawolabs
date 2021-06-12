@@ -8,7 +8,7 @@ import PrivateRoute from "./auth/PrivateRoute";
 import ForgotPassword from "./auth/ForgotPassword";
 import UpdateProfile from "./auth/UpdateProfile";
 import Home from "./pages/Home/Home";
-import Safemeet from "./components/Safemeet";
+import Safemeet from "./pages/extension/Safemeet";
 
 function App() {
   return (
