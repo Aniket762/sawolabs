@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Line } from "react-chartjs-2";
-import { useAuth } from "../auth/AuthContext";
+import { useAuth } from "../../auth/AuthContext";
 import firebase from "firebase";
-import '../App.css';
+import '../../App.css';
 
 const Graph = () => {
   const [chartData, setChartData] = useState({});

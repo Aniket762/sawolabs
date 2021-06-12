@@ -2,7 +2,7 @@ import React from "react";
 import Signup from "./auth/Signup";
 import { AuthProvider } from "./auth/AuthContext";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Dashboard from "./components/Dashboard";
+import Dashboard from "./pages/Dashboard/Dashboard";
 import Login from "./auth/Login";
 import PrivateRoute from "./auth/PrivateRoute";
 import ForgotPassword from "./auth/ForgotPassword";

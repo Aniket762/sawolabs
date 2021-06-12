@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Card, Button, Alert } from "react-bootstrap";
-import { useAuth } from "../auth/AuthContext";
+import { useAuth } from "../../auth/AuthContext";
 import {useHistory } from "react-router-dom";
-import Firestore from "../firebase/firestore";
+import Firestore from "../../functions/firestore";
 import Graph from "./Graph";
 import Navbar from "./NavDashboard";
 import styled from 'styled-components';

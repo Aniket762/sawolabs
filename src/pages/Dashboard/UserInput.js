@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { useAuth } from "../auth/AuthContext";
-import AddMood from "../firebase/addmood";
+import { useAuth } from "../../auth/AuthContext";
+import AddMood from "../../functions/addmood";
 
 const Container=styled.div`
 display:flex;

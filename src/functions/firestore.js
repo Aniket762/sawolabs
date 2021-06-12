@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import firebase from ".";
+import firebase from "../firebase";
 import "firebase/firestore";
-import { UserInput } from "../components/UserInput";
+import { UserInput } from "../pages/Dashboard/UserInput";
 
 function Firestore() {
   const [users,setUsers] = useState([]);
