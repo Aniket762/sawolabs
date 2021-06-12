@@ -1,7 +1,7 @@
 import React from "react";
 import { homeObjOne, homeObjTwo, homeObjThree } from "./Data";
-import { Footer, InfoSection, Navbar } from "./index";
-import Hero from './Hero/InfoSection'
+import { Footer, InfoSection, Navbar } from "../../components";
+import Hero from '../../components/Hero/InfoSection';
 import {
   Container, 
   Button,
@@ -14,7 +14,7 @@ import {
   Subtitle,
   ImgWrapper,
   Img
-} from './InfoSection/InfoSection.elements';
+} from '../../components/InfoSection/InfoSection.elements';
 function Home() {
   return (
     <>
@@ -46,7 +46,7 @@ function Home() {
             </InfoColumn>
             <InfoColumn>
               <ImgWrapper start={true}>
-                <Img src={require('../assets/strong.gif').default} alt="strong" />
+                <Img src={require('../../assets/strong.gif').default} alt="strong" />
               </ImgWrapper>
             </InfoColumn>
           </InfoRow>

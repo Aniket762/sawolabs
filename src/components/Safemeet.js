@@ -1,7 +1,7 @@
 import React from 'react'
-import { Footer} from '../pages'
+import { Footer } from './index';
 import styled from 'styled-components'
-import { Button } from '../pages/InfoSection/InfoSection.elements'
+import { Button } from './InfoSection/InfoSection.elements'
 import InfoSec from '../pages/InfoExtension/InfoSection'
 
 const Hero=styled.div`
