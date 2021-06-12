@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+.container{
+    margin-top: 25vh;
+}
+
+.quote{
+    padding-top: 2%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+    font-size: 40px;
+}
+
+.graph{
+    width:70%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .quote{
+        font-size: 40px;
+    }
+}
