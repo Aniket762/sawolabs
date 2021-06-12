@@ -8,7 +8,7 @@ export const homeObjOne = {
     description:
       'Regina is latin for Queen. A girl is a queen when she is mentally strong, physically strong and sometimes when she gets demotivated, she knows how to get back up. This web application helps you become a queen. Keep slaying! Keep rocking!',
     imgStart: '',
-    img: require('../images/home.png').default,
+    img: require('../assets/home.png').default,
     alt: 'Queen',
     linkTo:'happy',
     start: ''
@@ -25,7 +25,7 @@ export const homeObjOne = {
       'In this fast going world, keep a track of your mental health. Login to your dashboard and record your mood. You can see the improvement in your happiness with the help of a graph. Check your happiness index today! ',
     buttonLabel: 'Login',
     imgStart: 'start',
-    img: require('../images/happy.png').default,
+    img: require('../assets/happy.png').default,
     alt: 'happy',
     linkTo:'/login',
     start: 'true'
@@ -42,7 +42,7 @@ export const homeObjOne = {
       "Feeling low? Talk to someone on google meet and keep all the privacy you want. This chrome extension shows only what you want to show. So freely talk to anyone anywhere. Let's make google meet private in public.",
     buttonLabel: 'Learn More',
     imgStart: '',
-    img:require('../images/safe.gif').default,
+    img:require('../assets/safe.gif').default,
     alt: 'Safe',
     linkTo:'/safemeet',
     start: ''
@@ -59,7 +59,7 @@ export const homeObjOne = {
       "With the increasing crime rates all across the world, it is important to know how to defend yourself. Learn some self defence moves in Augmented Reality. This app will help you have some fun along with learning something very crucial in today's world",
     buttonLabel: 'Learn in AR',
     imgStart: 'start',
-    img: require('../images/strong.gif').default,
+    img: require('../assets/strong.gif').default,
     alt: 'strong',
     linkTo:'https://sumana2001.github.io/thereginaAR/',
     start: 'true'

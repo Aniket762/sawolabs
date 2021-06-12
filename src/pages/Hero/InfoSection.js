@@ -45,7 +45,7 @@ function InfoSection({
             smooth={true}
             offset={-50}
             duration={500}  to={linkTo}>
-                <Image src={require("../../images/scroll.gif").default} alt={alt} />
+                <Image src={require("../../assets/scroll.gif").default} alt={alt} />
                     {buttonLabel}
                 </Link>
               </TextWrapper>

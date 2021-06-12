@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { useAuth } from "../contexts/AuthContext";
+import { useAuth } from "../auth/AuthContext";
 import AddMood from "../firebase/addmood";
 
 const Container=styled.div`

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import React, { useState, useEffect } from "react";
-import { FaBars, FaTimes, FaMagento } from "react-icons/fa";
+import React from "react";
 import { IconContext } from "react-icons/lib";
 
 const Nav = styled.nav`

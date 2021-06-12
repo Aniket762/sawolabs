@@ -1,5 +1,5 @@
 import React from "react";
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from "./Data";
+import { homeObjOne, homeObjTwo, homeObjThree } from "./Data";
 import { Footer, InfoSection, Navbar } from "./index";
 import Hero from './Hero/InfoSection'
 import {
@@ -46,7 +46,7 @@ function Home() {
             </InfoColumn>
             <InfoColumn>
               <ImgWrapper start={true}>
-                <Img src={require('../images/strong.gif').default} alt="strong" />
+                <Img src={require('../assets/strong.gif').default} alt="strong" />
               </ImgWrapper>
             </InfoColumn>
           </InfoRow>

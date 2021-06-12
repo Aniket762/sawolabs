@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Card, Button, Alert } from "react-bootstrap";
-import { useAuth } from "../contexts/AuthContext";
-import { Link, useHistory } from "react-router-dom";
+import { useAuth } from "../auth/AuthContext";
+import {useHistory } from "react-router-dom";
 import Firestore from "../firebase/firestore";
-import { UserInput } from "./UserInput";
 import Graph from "./Graph";
 import Navbar from "./NavDashboard";
 import styled from 'styled-components';
@@ -23,7 +22,7 @@ font-size: 60px;
 
 export default function Dashboard() {
   const [error, setError] = useState("");
-  const { currentUser, logout } = useAuth();
+  const { logout } = useAuth();
   const history = useHistory();
 
   async function handleLogout() {

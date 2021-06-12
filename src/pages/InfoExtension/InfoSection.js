@@ -1,12 +1,10 @@
 import React from 'react';
 import {
   Container, 
-  Button,
   InfoSec,
   InfoRow,
   InfoColumn,
   TextWrapper,
-  TopLine,
   Heading,
   Subtitle,
   ImgWrapper,
@@ -34,7 +32,7 @@ export default function InfoSection({
             </InfoColumn>
             <InfoColumn>
               <ImgWrapper start={false}>
-                <Img src={require('../../images/extension1.png').default} alt="extension" />
+                <Img src={require('../../assets/extension1.png').default} alt="extension" />
               </ImgWrapper>
             </InfoColumn>
           </InfoRow>
@@ -55,7 +53,7 @@ export default function InfoSection({
             </InfoColumn>
             <InfoColumn>
               <ImgWrapper start={true}>
-                <Img src={require('../../images/extension2.png').default} alt="extension img"/>
+                <Img src={require('../../assets/extension2.png').default} alt="extension img"/>
               </ImgWrapper>
             </InfoColumn>
           </InfoRow>

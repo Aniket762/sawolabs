@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import firebase from "../firebase";
+import firebase from ".";
 import "firebase/firestore";
 import { UserInput } from "../components/UserInput";
 
 function Firestore() {
-  const [users, setUsers] = useState([]);
+  const [users,setUsers] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
       const db = firebase.firestore();

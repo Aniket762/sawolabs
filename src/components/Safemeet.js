@@ -1,6 +1,5 @@
 import React from 'react'
-import { Footer, InfoSection, Navbar } from '../pages'
-import {homeObjFive, homeObjSix} from "../pages/Data"
+import { Footer} from '../pages'
 import styled from 'styled-components'
 import { Button } from '../pages/InfoSection/InfoSection.elements'
 import InfoSec from '../pages/InfoExtension/InfoSection'
