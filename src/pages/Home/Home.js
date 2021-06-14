@@ -38,7 +38,7 @@ function Home() {
                 <TopLine lightTopLine={false}></TopLine>
                 <Heading lightText={false}>Stay strong💪</Heading>
                 <Subtitle lightTextDesc={false}>With the increasing crime rates all across the world, it is important to know how to defend yourself. Learn some self defence moves in Augmented Reality. This app will help you have some fun along with learning something very crucial in today's world</Subtitle>
-                <a href="https://sumana2001.github.io/thereginaAR/" target="__blank">
+                <a href="https://theregina.tech" target="__blank">
                   <Button big fontBig >
                   Learn in AR
                   </Button>
