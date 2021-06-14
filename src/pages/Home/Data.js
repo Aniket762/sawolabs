@@ -10,7 +10,8 @@ export const homeObjOne = {
     imgStart: '',
     img: require('../../assets/home.png').default,
     alt: 'Queen',
-    linkTo:'happy',
+    buttonLabel: 'Get Started',
+    linkTo:'/login',
     start: ''
   };
   

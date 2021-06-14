@@ -1,7 +1,6 @@
 import React from "react";
 import { homeObjOne, homeObjTwo, homeObjThree } from "./Data";
 import { Footer, InfoSection, Navbar } from "../../components";
-import Hero from './Hero/InfoSection';
 import {
   Container, 
   Button,
@@ -15,12 +14,14 @@ import {
   ImgWrapper,
   Img
 } from '../../components/InfoSection/InfoSection.elements';
+
+
 function Home() {
   return (
     <>
     <Navbar/>
       <div id="home">
-        <Hero {...homeObjOne} />
+        <InfoSection {...homeObjOne} />
       </div>
       <div id="happy">
         <InfoSection {...homeObjTwo} />
