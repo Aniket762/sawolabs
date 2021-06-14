@@ -1,7 +1,7 @@
 import React from "react";
 import { homeObjOne, homeObjTwo, homeObjThree } from "./Data";
 import { Footer, InfoSection, Navbar } from "../../components";
-import Hero from '../../components/Hero/InfoSection';
+import Hero from './Hero/InfoSection';
 import {
   Container, 
   Button,

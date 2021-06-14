@@ -56,7 +56,7 @@ function Navbar() {
             smooth={true}
             offset={-50}
             duration={500}  onClick={closeMobileMenu}>
-                  Stay happy!
+                  H-Index
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -66,7 +66,7 @@ function Navbar() {
             smooth={true}
             offset={-50}
             duration={500} onClick={closeMobileMenu}>
-                  Stay safe!
+                  Extension
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -76,7 +76,7 @@ function Navbar() {
             smooth={true}
             offset={-50}
             duration={500} onClick={closeMobileMenu}>
-                  Stay strong!
+                 Trainer
                 </NavLinks>
               </NavItem>
               

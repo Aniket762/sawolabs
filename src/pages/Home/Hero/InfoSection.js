@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import styled from 'styled-components';
+
 import {
   Container, 
   InfoSec,
@@ -10,9 +12,19 @@ import {
   Heading,
   Subtitle,
   ImgWrapper,
-  Img,
-  Image
-} from './InfoSection.elements';
+  Img
+} from '../../../components/InfoSection/InfoSection.elements';
+
+
+const Image = styled.img`
+  border: 0;
+  max-width: 25%;
+  vertical-align: middle;
+  horizontal-align:left;
+  margin:0 auto;
+  margin-left:40%;
+  cursor:pointer;
+`;
 
 function InfoSection({
   lightBg,
@@ -44,8 +56,8 @@ function InfoSection({
             spy={true}
             smooth={true}
             offset={-50}
-            duration={500}  to={linkTo}>
-                <Image src={require("../../assets/scroll.gif").default} alt={alt} />
+            duration={500}  to={linkTo}> 
+                <Image src={require("../../../assets/scroll.gif").default} alt={alt} />
                     {buttonLabel}
                 </Link>
               </TextWrapper>

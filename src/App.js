@@ -20,9 +20,9 @@ function App() {
               <PrivateRoute path="/update-profile" component={UpdateProfile} />
               <Route exact path="/" component={Home} />
               <Route exact path="/safemeet" component={Safemeet} />
-              <Route path="/signup" component={Signup} />
-              <Route path="/login" component={Login} />
-              <Route path="/forgot-password" component={ForgotPassword} />
+              <Route exact path="/signup" component={Signup} />
+              <Route exact path="/login" component={Login} />
+              <Route exact path="/forgot-password" component={ForgotPassword} />
             </Switch>
           </AuthProvider>
         </Router>
