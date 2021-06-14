@@ -9,9 +9,9 @@
 The product consists of three software subsystems which were combined to make it a complete working prototype. It has a happiness index marker in which you need to Signup and Login. Although human emotions are fuzzy numbers that cannot be scaled linearly; for keeping it simple for the user we have added 5 emotions to select from. Upon selecting key-value pair of timestamp and mood gets pushed in the Firestore Database. After fetching the data I used chart.js to convert the data into graphs to give the user a better visual representation. The web application also has features of updating user profile and forgot password button where the user gets a mail-in his / her registered mail id from where the password can be reset. The next subsystem is a chrome extension which makes google meet private in public. The extension is a solution to data breaches by hiding some components and to unhide the user needs to hover over it.  Being the ultimate solution to women empowerment the product also includes an AR martial art teacher model which teaches various moves when you click on the moves specified.
 
 <p float='left'>
-<img width="310" alt="Dashboard of theRegina" src="https://user-images.githubusercontent.com/63084088/120925387-0dc1ef00-c6f6-11eb-8087-5444c1d45f2d.png">
-<img width="310" alt="chrome extension of theRegina" src="https://user-images.githubusercontent.com/63084088/120925395-1286a300-c6f6-11eb-8e56-be166113d412.png">
-<img width="310" alt="trainer of theRegina" src="https://user-images.githubusercontent.com/63084088/120925400-161a2a00-c6f6-11eb-89c8-1603b5762179.png">  
+<img width="270" alt="Dashboard of theRegina" src="https://user-images.githubusercontent.com/63084088/120925387-0dc1ef00-c6f6-11eb-8087-5444c1d45f2d.png">
+<img width="270" alt="chrome extension of theRegina" src="https://user-images.githubusercontent.com/63084088/120925395-1286a300-c6f6-11eb-8e56-be166113d412.png">
+<img width="270" alt="trainer of theRegina" src="https://user-images.githubusercontent.com/63084088/120925400-161a2a00-c6f6-11eb-89c8-1603b5762179.png">  
 </p>
 
 
