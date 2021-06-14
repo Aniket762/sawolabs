@@ -7,11 +7,17 @@ import '../../App.css';
 const Graph = () => {
   const [chartData, setChartData] = useState({});
   const currentUser = useAuth();
-  const chart = () => {
+
+  // from chart.js documentation
+  const chart = () =>
+  {
+    
+   // making arrays for storing mood and date values 
     let userMood = [];
     let userDate = [];
 
     const db = firebase.firestore();
+
     var docRef = db
       .collection("mood")
       .doc(currentUser.currentUser.email)
@@ -24,6 +30,9 @@ const Graph = () => {
           userMood.push(doc.data().mood);
           userDate.push(doc.data().date);
         });
+
+        // using the fetched data to construct the graph
+
         setChartData({
           labels: userDate,
           datasets: [

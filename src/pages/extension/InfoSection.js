@@ -9,7 +9,7 @@ import {
   Subtitle,
   ImgWrapper,
   Img
-} from './InfoSection.elements';
+} from '../../components/InfoSection/InfoSection.elements';
 
 export default function InfoSection({
 }) {

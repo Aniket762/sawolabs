@@ -2,7 +2,7 @@ import React from 'react'
 import { Footer } from '../../components/index';
 import styled from 'styled-components'
 import { Button } from '../../components/InfoSection/InfoSection.elements'
-import InfoSec from '../../components/InfoExtension/InfoSection'
+import InfoSec from './InfoSection';
 
 const Hero=styled.div`
 color: #000;

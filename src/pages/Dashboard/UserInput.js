@@ -24,6 +24,7 @@ const Button=styled.h1`
 export const UserInput = () => {
   const currentUser = useAuth();
 
+  // In the addmood function passing the value for reaction and userStatus
   return (
     <>
     <Container>

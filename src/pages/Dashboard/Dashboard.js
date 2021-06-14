@@ -30,6 +30,9 @@ export default function Dashboard() {
     try {
       await logout();
       history.push("/");
+
+      // when logged out redirected to home
+
     } catch {
       setError("Failed to log out");
     }
@@ -39,12 +42,20 @@ export default function Dashboard() {
     <Navbar/>
       <Card style={{zIndex:1}}>
         <Card.Body>
-          <h1 className="text-center mb-4 quote">Be happy for this moment. This moment is your life.<br/>
-          So, how's your mood today? Select the emoji👇</h1>
+          <h1 className="text-center mb-4 quote">
+
+          Be happy for this moment. This moment is your life.<br/>
+          So, how's your mood today? Select the emoji👇
+            
+          </h1>
           {error && <Alert variant="danger">{error}</Alert>}
         </Card.Body>
+
         <Firestore />
-        <Heading>You are beautiful. You are strong. You are worth it!</Heading>
+
+        <Heading>
+          You are beautiful. You are strong. You are worth it!
+        </Heading>
         
         <Graph />
       </Card>
