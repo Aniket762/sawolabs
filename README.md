@@ -8,17 +8,59 @@
 ## What is it? 👸🏻
 The product consists of three software subsystems which were combined to make it a complete working prototype. It has a happiness index marker in which you need to Signup and Login. Although human emotions are fuzzy numbers that cannot be scaled linearly; for keeping it simple for the user we have added 5 emotions to select from. Upon selecting key-value pair of timestamp and mood gets pushed in the Firestore Database. After fetching the data I used chart.js to convert the data into graphs to give the user a better visual representation. The web application also has features of updating user profile and forgot password button where the user gets a mail-in his / her registered mail id from where the password can be reset. The next subsystem is a chrome extension which makes google meet private in public. The extension is a solution to data breaches by hiding some components and to unhide the user needs to hover over it.  Being the ultimate solution to women empowerment the product also includes an AR martial art teacher model which teaches various moves when you click on the moves specified.
 
-<img width="1440" alt="Screenshot 2021-06-06 at 5 52 55 PM" src="https://user-images.githubusercontent.com/63084088/120925387-0dc1ef00-c6f6-11eb-8087-5444c1d45f2d.png">
+<img width="1440" alt="Dashboard of theRegina" src="https://user-images.githubusercontent.com/63084088/120925387-0dc1ef00-c6f6-11eb-8087-5444c1d45f2d.png">
 
 Firstly I have a web application which keeps a track of your happiness index. You simply login to your dashboard and select the emoji best describing your day. Then a graph is generated according to your records. This motivates the person to keep trying to increase their happiness index and keep a check on their mental health. You can also update your profile and if you forget your password, you can reset it and you will receive a secure link to change it in your mail.
 
-<img width="1440" alt="Screenshot 2021-06-06 at 5 53 25 PM" src="https://user-images.githubusercontent.com/63084088/120925395-1286a300-c6f6-11eb-8e56-be166113d412.png">
+<img width="1440" alt="chrome extension of theRegina" src="https://user-images.githubusercontent.com/63084088/120925395-1286a300-c6f6-11eb-8e56-be166113d412.png">
 
 The second part of regina is a chrome extension to talk to someone on google meet and keep all the privacy you want. This chrome extension shows only what you want to show. So you can freely talk to anyone anywhere. It can blur videos, chats, participant list etc and you simply hover over it to see.
 
-<img width="1440" alt="Screenshot 2021-06-06 at 5 53 56 PM" src="https://user-images.githubusercontent.com/63084088/120925400-161a2a00-c6f6-11eb-89c8-1603b5762179.png">
+<img width="1440" alt="trainer of theRegina" src="https://user-images.githubusercontent.com/63084088/120925400-161a2a00-c6f6-11eb-89c8-1603b5762179.png">
 
 Lastly, I have an AR application that teaches you some very crucial self-defence moves. You can either watch it in VR on the website or you can also download the app to get the full Augmented Reality experience. You can simply tap on the move you want to learn and the instructor will teach you how to do it.
+
+
+[![Starware](https://img.shields.io/badge/⭐-Starware-f5a91a?labelColor=black)](https://github.com/zepfietje/starware)
+
+TheRegina is Starware.  
+This means you're free to use the project, as long as you star its GitHub repository.  
+Your appreciation makes us grow and glow up. ⭐
+
+# Prerequisites 👨‍💻
+
+### Install Node JS
+Refer to https://nodejs.org/en/ to install nodejs
+
+### Install create-react-app
+Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
+
+```bash
+npm install -g create-react-app
+```
+
+## Cloning and Running the Application in local 💻
+
+Clone the project in localhost
+```bash
+git clone https://github.com/Aniket762/theregina.git
+```
+Install all the npm packages. Go into the client folder and type the following command to install all npm packages
+
+```bash
+npm install
+```
+
+In order to run the application Type the following command
+
+```bash
+npm start
+```
+
+The Application Runs on **localhost:3000**
+
+
+
 
 ## How it was built 👷‍♀️
 The product consists of various software subsystems which were combined to make it a complete working prototype. React was used in the front  end of the web application. Firebase was used while authenticating users and Firestore for storing and retriving the key-value pairs. After fetching the data I used chart.js to convert the data into graph to give user a better visual representation. The web application is hosted on cloud. The AR model required AR core, AR Foundation and Unity 3D.And finally the Chrome extension was built in HTML,CSS and vanilla Javascript.  
