@@ -63,7 +63,7 @@ npm start
 The Application Runs on **localhost:3000**
 
 
-# Connecting with Firebase 
+# Connecting with Firebase ⚡
 Allow authentication via email and password. Setup your firestore as the database and make proper collection and document ids. Name your collection as mood. Then add the following in your `.env` file and keep it in the root.
 
 ```
